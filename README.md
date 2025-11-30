@@ -1,37 +1,159 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📘 **NexLearn – Online Examination Platform**
 
-## Getting Started
+A fully responsive, SEO-optimized online examination system built using **Next.js**, **Tailwind CSS**, **JWT Authentication**, and modern best practices.
 
-First, run the development server:
+This project is developed as part of the **Front-End Machine Test (Level 1) – Next.js** for **Noviindus Technologies**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🚀 **Live Demo (Optional)**
+
+> Add your deployed link here
+> `https://your-deployment-url.com`
+
+---
+
+## 🎯 **Objective**
+
+Recreate the provided Figma design with a pixel-perfect, responsive, and performance-optimized Next.js application following industry-standard best practices.
+
+---
+
+## 🧩 **Features Implemented**
+
+### ✅ **Pixel-Perfect UI**
+
+* Figma design recreated with high accuracy
+* Consistent spacing, typography, color scheme
+
+### ✅ **Fully Responsive**
+
+* Mobile-first approach
+* Works across all screen sizes seamlessly
+
+### ✅ **SEO Optimized**
+
+* Meta tags, OpenGraph, Twitter cards
+* Semantic HTML
+* Optimized performance using Next.js features
+
+### ✅ **Authentication**
+
+* JWT-based login
+* Access + Refresh token handling
+* Auto token refresh using Axios interceptor
+
+### ✅ **State Management**
+
+* Global state using Redux Toolkit (or your chosen library)
+* Auth state persisted
+
+### ✅ **Performance**
+
+* Code-splitting & Dynamic imports
+* Optimized images
+* Layout & render optimization with React hooks
+
+### ✅ **Accessibility**
+
+* ARIA labels
+* Keyboard navigable
+* Proper semantic tags
+
+---
+
+## 🛠️ **Tech Stack**
+
+| Area             | Technology                 |
+| ---------------- | -------------------------- |
+| Framework        | **Next.js (Latest)**       |
+| UI Styling       | **Tailwind CSS**           |
+| State Management | Redux Toolkit / Zustand    |
+| Authentication   | JWT + Refresh Token        |
+| Language         | TypeScript                 |
+| API              | Provided API Documentation |
+| Icons            | Lucide / Custom            |
+
+---
+
+## 📂 **Project Structure**
+
+```
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   ├── auth/
+│   │   ├── layout.tsx
+│   │   ├── login/
+│   │   │   └── page.tsx
+│   │   └── verify-otp/
+│   │       └── page.tsx
+│   ├── exam/
+│   │   └── questions/
+│   │       └── page.tsx
+│   └── results/
+│       └── page.tsx
+├── components/
+│   ├── exam/
+│   │   ├── QuestionCard.tsx
+│   │   └── Timer.tsx
+│   └── ui/
+│       ├── Header.tsx
+│       └── LoadingSpinner.tsx
+├── lib/
+│   ├── slices/
+│   │   ├── authSlice.ts
+│   │   └── examSlice.ts
+│   ├── api.ts
+│   ├── store.ts
+│   └── utils.ts
+├── types/
+│   └── index.ts
+├── hooks/
+│   └── useAuthCheck.ts
+└── middleware.ts
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔐 **Authentication Flow**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. User logs in → receives **access token + refresh token**
+2. Access token stored in memory / cookies
+3. Axios interceptor auto-refreshes expired token
+4. Protected routes based on auth state
+5. Logout clears all session data
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🖥️ **How to Run Locally**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+git clone <repository-url>
+cd nexlearn
+yarn install
+yan dev
+yarn build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🔌 **API Documentation**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Documentation Link (given in test):
+[https://docs.google.com/document/d/1gIuJ-tYdfJMBZY_yeXZNg7Wmx6mHki0P6XMGyB2ndCA/edit](https://docs.google.com/document/d/1gIuJ-tYdfJMBZY_yeXZNg7Wmx6mHki0P6XMGyB2ndCA/edit)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# nexlearn-test
+---
+
+## 🎨 **Figma Design**
+
+[https://www.figma.com/design/YJoY0WfcNLHAYFZkIF3E9w/Next-Test?node-id=0-1&m=dev](https://www.figma.com/design/YJoY0WfcNLHAYFZkIF3E9w/Next-Test?node-id=0-1&m=dev)
+
+---
+
+## 🕒 **Time Taken**
+
+> Replace with your real time
+> **Total Development Time: 24 hours**
+
+---
