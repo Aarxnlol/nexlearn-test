@@ -6,7 +6,7 @@ This project is developed as part of the **Front-End Machine Test (Level 1) – 
 
 ---
 
-## 🚀 **Live Demo (Optional)**
+## 🚀 **Live Demo **
 
 > Add your deployed link here
 > `https://nexlearn-test-gules.vercel.app/`
