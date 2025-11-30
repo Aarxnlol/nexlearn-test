@@ -18,12 +18,12 @@ export interface AuthState {
 }
 
 export interface Question {
-  id: number;           // This should map to question_id from API
-  question_id?: number; // Add this to handle API response
+  id: number;          
+  question_id?: number; 
   question: string;
   options: Option[];
   marks: number;
-  number?: number;      // Add this from API
+  number?: number; 
   comprehension?: string | null;
   image?: string | null;
 }

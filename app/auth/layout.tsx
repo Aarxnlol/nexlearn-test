@@ -5,7 +5,7 @@ import React from "react";
 import Image from "next/image";
 import Loginlogo from "../../public/loginanime.svg";
 
-function Layout({ children }: { children: React.JSX.Element }) {
+function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="w-screen h-screen bg-[#1c3241]">
       {/* Main Grid Container */}
