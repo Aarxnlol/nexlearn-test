@@ -68,11 +68,11 @@ Recreate the provided Figma design with a pixel-perfect, responsive, and perform
 | ---------------- | -------------------------- |
 | Framework        | **Next.js (Latest)**       |
 | UI Styling       | **Tailwind CSS**           |
-| State Management | Redux Toolkit / Zustand    |
+| State Management | Redux Toolkit              |
 | Authentication   | JWT + Refresh Token        |
 | Language         | TypeScript                 |
 | API              | Provided API Documentation |
-| Icons            | Lucide / Custom            |
+| Icons            | Custom                     |
 
 ---
 
