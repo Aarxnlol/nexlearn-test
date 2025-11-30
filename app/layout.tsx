@@ -32,11 +32,11 @@ export const metadata: Metadata = {
   ],
   creator: 'Noviindus Technologies',
   publisher: 'NexLearn',
-  metadataBase: new URL('https://your-domain.com'), // change when live
+  metadataBase: new URL('https://nexlearn-test-gules.vercel.app/'), // change when live
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://your-domain.com',
+    url: 'https://nexlearn-test-gules.vercel.app/',
     title: 'NexLearn – Online Examination Platform',
     description:
       'A modern, responsive, and secure exam platform created using Next.js and Tailwind.',
