@@ -9,7 +9,7 @@ This project is developed as part of the **Front-End Machine Test (Level 1) – 
 ## 🚀 **Live Demo (Optional)**
 
 > Add your deployed link here
-> `https://your-deployment-url.com`
+> `https://nexlearn-test-gules.vercel.app/`
 
 ---
 
