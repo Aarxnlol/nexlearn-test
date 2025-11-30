@@ -4,10 +4,10 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useDispatch, useSelector } from 'react-redux';
-import { apiService } from '@/app/lib/api';
-import { RootState } from '@/app/lib/store';
-import { validateMobile } from '@/app/lib/utils';
-import { setError, setLoading } from '@/app/lib/slices/authSlices';
+import { apiService } from '@/lib/api';
+import { RootState } from '@/lib/store';
+import { validateMobile } from '@/lib/utils';
+import { setError, setLoading } from '@/lib/slices/authSlices';
 
 export default function LoginPage() {
   const [mobile, setMobile] = useState('');

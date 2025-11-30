@@ -5,10 +5,10 @@
 import React, { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { useSelector, useDispatch } from "react-redux";
-import type { RootState } from "@/app/lib/store";
-import { resetExam } from "@/app/lib/slices/examSlice";
-import { calculatePercentage } from "@/app/lib/utils";
-import Navbar from "@/app/components/ui/Navbar";
+import type { RootState } from "@/lib/store";
+import { resetExam } from "@/lib/slices/examSlice";
+import { calculatePercentage } from "@/lib/utils";
+import Navbar from "@/components/ui/Navbar";
 
 export default function ResultsPage() {
   const router = useRouter();

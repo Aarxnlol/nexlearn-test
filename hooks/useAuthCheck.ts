@@ -2,7 +2,7 @@
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useSelector } from 'react-redux';
-import { RootState } from '@/app/lib/store';
+import { RootState } from '@/lib/store';
 
 export const useAuthCheck = (redirectIfUnauthenticated = false) => {
   const router = useRouter();

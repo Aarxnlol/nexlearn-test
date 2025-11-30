@@ -5,14 +5,14 @@
 import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { useDispatch, useSelector } from "react-redux";
-import { apiService } from "@/app/lib/api";
-import { RootState } from "@/app/lib/store";
-import { validateEmail } from "@/app/lib/utils";
+import { apiService } from "@/lib/api";
+import { RootState } from "@/lib/store";
+import { validateEmail } from "@/lib/utils";
 import {
   setCredentials,
   setError,
   setLoading,
-} from "@/app/lib/slices/authSlices";
+} from "@/lib/slices/authSlices";
 
 interface FormData {
   name: string;

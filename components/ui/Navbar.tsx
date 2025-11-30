@@ -3,7 +3,7 @@
 "use client";
 
 import { useDispatch } from "react-redux";
-import { logout } from "@/app/lib/slices/authSlices";
+import { logout } from "@/lib/slices/authSlices";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 

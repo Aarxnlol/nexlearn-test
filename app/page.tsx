@@ -5,16 +5,16 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { useDispatch, useSelector } from "react-redux";
-import { apiService } from "@/app/lib/api";
+import { apiService } from "@/lib/api";
 import {
   setExamInfo,
   setQuestions,
   setLoading,
   setError,
-} from "@/app/lib/slices/examSlice";
-import { RootState } from "@/app/lib/store";
-import { useAuthCheck } from "@/app/hooks/useAuthCheck";
-import Navbar from "@/app/components/ui/Navbar";
+} from "@/lib/slices/examSlice";
+import { RootState } from "@/lib/store";
+import { useAuthCheck } from "@/hooks/useAuthCheck";
+import Navbar from "@/components/ui/Navbar";
 
 interface ExamInfo {
   questions_count: number;

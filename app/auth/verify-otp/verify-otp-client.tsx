@@ -5,13 +5,13 @@
 import { useState, useEffect, useRef } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { useDispatch, useSelector } from "react-redux";
-import { apiService } from "@/app/lib/api";
+import { apiService } from "@/lib/api";
 import {
   setCredentials,
   setError,
   setLoading,
-} from "@/app/lib/slices/authSlices";
-import type { RootState } from "@/app/lib/store";
+} from "@/lib/slices/authSlices";
+import type { RootState } from "@/lib/store";
 
 export default function VerifyOtpClient() {
   const [otp, setOtp] = useState(["", "", "", "", "", ""]);

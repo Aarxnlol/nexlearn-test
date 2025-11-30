@@ -6,8 +6,8 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { useSelector, useDispatch } from "react-redux";
-import { RootState } from "@/app/lib/store";
-import { apiService } from "@/app/lib/api";
+import { RootState } from "@/lib/store";
+import { apiService } from "@/lib/api";
 import {
   setQuestions,
   setAnswer,
@@ -20,10 +20,10 @@ import {
   setLoading,
   setError,
   toggleMarkForReview,
-} from "@/app/lib/slices/examSlice";
-import QuestionCard from "@/app/components/exam/QuestionCard";
-import Timer from "@/app/components/exam/Timer";
-import Header from "@/app/components/ui/Navbar";
+} from "@/lib/slices/examSlice";
+import QuestionCard from "@/components/exam/QuestionCard";
+import Timer from "@/components/exam/Timer";
+import Header from "@/components/ui/Navbar";
 
 export default function QuestionsPage() {
   const [localLoading, setLocalLoading] = useState(true);
